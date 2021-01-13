@@ -34,7 +34,7 @@ sum(is.na(df))
 ```
 ## Exploratory Data Analysis
 ```{r}
-ggplot(data= df, aes(x="City"))+
-  geom_bar(stat="count")
+ggplot(data= df, aes(x= "Total"))+
+  geom_histogram(binwidth = 0.5)
 ```
 
